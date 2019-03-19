@@ -1,0 +1,31 @@
+.tall {
+    background-color: black;
+    height: 520px;
+    z-index: 300000;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: -350%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+  }
+  .now {
+     
+    min-width: 136px;
+    height: 28px;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+.label {
+    vertical-align: middle;
+    line-height: 1.42857;
+}

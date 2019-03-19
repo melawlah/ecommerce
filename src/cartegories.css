@@ -1,0 +1,29 @@
+
+.bg {
+    background-color: greenyellow;
+    color: white;
+    width: 220px;
+    height: 45px;
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.cart {
+    margin-top: 0px;
+    
+     width: 220px; 
+
+   font-family: 'EB Garamond', serif;
+    font-size: 12px;
+}
+
+.hi {
+    position: relative;
+    display: inline-block;
+    float: left;
+
+}
+.delimiter {
+    float: right;
+   
+}

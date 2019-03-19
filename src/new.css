@@ -1,0 +1,22 @@
+
+.Container {
+    border-bottom: 2px outset #DCDCDC !important ;
+    
+}
+.new{
+    font-family: 'EB Garamond', serif;
+    color: grey;
+}
+
+.new2{
+    font-family: 'EB Garamond', serif;
+    font-size: 12px;
+}
+
+.oldP {
+    text-decoration: line-through;
+}
+
+.newP {
+    float: right;
+}
