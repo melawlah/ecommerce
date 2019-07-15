@@ -29,3 +29,10 @@
     vertical-align: middle;
     line-height: 1.42857;
 }
+
+.float {
+  float: right;
+
+  width: 900px;
+
+}

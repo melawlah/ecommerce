@@ -7,7 +7,7 @@ import './back.css'
 
 const Back = () => {
             return (
-                <Carousel >
+                <Carousel  className = 'float'>
 
                 <Carousel.Item>
                     <div className='container'>

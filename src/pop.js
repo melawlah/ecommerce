@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 
 const pStyle = {
     width: '210px',
-    height: '190px',
+    height: '190x',
     display: 'inline-block',
     padding: '20px',
     margin: '25px',
+    clear: 'both',
   };
 
 class Pop extends Component {
@@ -30,7 +31,7 @@ class Pop extends Component {
       
         render() {
           return (
-            <section className="Container  ba b--light-gray ma4">
+            <section className=" ba b--light-gray ma4">
             <div className = ''>
             <h4 className='pa3 new bb b--light-gray' > EXPLORE POPULAR CARTEGORIES</h4>
            
@@ -41,7 +42,7 @@ class Pop extends Component {
                 {this.state.items.slice(0, this.state.visible).map((item, index) => {
                      
                     return (
-                      <div className="new2" key ={item.id} style={pStyle}>
+                      <div className="new2" key ={item.id} style={ pStyle }>
                       <div> <br/> </div> 
                         <img src={ require(`./acc.jpg`) } className=' db '/>
                         <p className='pa3'>{item.name}</p> 
@@ -60,4 +61,3 @@ class Pop extends Component {
     
 
   export default Pop;
-  
